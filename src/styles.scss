@@ -1,0 +1,132 @@
+@import './src/app/modules/shared/styles/varaibles';
+
+h1, h2, h3, h4, h5, h6, p, pre, span, label, button, a, div, input, textarea, select {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-variant: normal;
+
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+h1 {
+  color: $fontColourLighter;
+
+  font-weight: 700;
+  font-size: 3.5rem;
+
+  margin: 0;
+}
+
+h2 {
+  color: $fontColourLighter;
+
+  font-weight: 700;
+  font-size: 2.5rem;
+
+  margin: 0;
+}
+
+h3 {
+  color: $fontColourLighter;
+
+  font-weight: 400;
+  font-size: 1.375rem;
+
+  margin: 0;
+}
+
+h4 {
+  color: $fontColourLighter;
+
+  font-weight: 400;
+  font-size: 1.25rem;
+
+  margin: 0;
+}
+
+h5 {
+  font-family: $monoFontFamily;
+
+  color: $fontColourLight;
+
+  font-weight: 400;
+  font-size: 1rem;
+
+  margin: 0;
+}
+
+h6 {
+  font-family: $monoFontFamily;
+
+  color: $fontColourHighlight;
+
+  font-weight: 400;
+  font-size: 1.125rem;
+
+  margin: 0;
+}
+
+button {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+a {
+  font-family: $monoFontFamily;
+
+  color: $fontColourLighter;
+
+  font-size: 0.875rem;
+
+  text-decoration: none;
+
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+
+  &:hover {
+    color: $fontColourHighlight;
+  }
+}
+
+input, textarea, select {
+  font-weight: 100;
+  font-size: 0.875rem;
+}
+
+p, pre, span, label, div, body {
+  color: $fontColour;
+
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+strong {
+  color: $fontColourLighter;
+
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+small, legend {
+  font-family: $monoFontFamily;
+
+  color: $fontColourLighter;
+
+  font-size: 0.875rem;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  overflow-x: hidden;
+
+  padding: 0;
+  margin: 0;
+
+  background-color: $backgroundColour;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}

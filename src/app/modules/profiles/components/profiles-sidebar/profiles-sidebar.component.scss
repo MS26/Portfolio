@@ -1,0 +1,50 @@
+@import '../../../shared/styles/varaibles';
+
+.profiles-container {
+  position: fixed;
+
+  bottom: 0;
+  left: 0;
+
+  z-index: 10;
+}
+
+.profiles {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #ccd6f6;
+  }
+
+  list-style: none;
+
+  &__item {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    &__link {
+      margin: auto 10px;
+      padding: 10px;
+
+      svg {
+        color: currentColor;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

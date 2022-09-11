@@ -1,0 +1,20 @@
+<heading [header]="'Education'"></heading>
+
+<div class="education">
+    <article class="education__object" *ngFor="let education of data.education; let index = index">
+        <div class="education__result">
+            <header>
+                <h4>{{education.area}}</h4>
+                <p>Studying a {{education.studyType}} at <a href="{{education.url}}" target="_blank">{{education.institution}}</a>.</p>
+            </header>
+
+            <footer class="education__result__footer">
+                <div>
+                    <small>{{education.startDate}}</small>
+                    <small *ngIf="education.endDate"> - {{education.endDate}}</small>
+                    <small *ngIf="!education.endDate"> - Present</small>
+                </div>
+            </footer>
+        </div>
+    </article>
+</div>

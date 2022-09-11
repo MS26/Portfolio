@@ -1,0 +1,42 @@
+@import "../../styles/varaibles";
+
+.button {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 150ms ease-in-out, border 150ms ease-in-out, color 150ms ease-in-out;
+    background: $backgroundColour;
+
+    font-family: $fontFamily;
+
+    outline: none;
+
+    &:focus:not(:disabled) {
+        outline: 2px dashed #222;
+        outline-offset: 4px;
+    }
+
+    &:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &[buttonOutlined], &.button-outline {
+        border-color: $fontColourLight;
+        color: $fontColourLighter;
+
+        &:hover:not(:disabled) {
+            background-color: $backgroundColourLight;
+        }
+    }
+}

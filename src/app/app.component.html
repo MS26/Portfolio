@@ -1,0 +1,34 @@
+<main class="portfolio-content">
+        <section class="portfolio-content__item" #introduction>
+            <introduction></introduction>
+            <scroller class="hide-on-small-screens" (next)="scrollTo(overview)"></scroller>
+        </section>
+
+        <section class="portfolio-content__item"  #overview>
+            <overview></overview>
+        </section>
+
+        <section class="portfolio-content__item"  #experience>
+            <experience></experience>
+        </section>
+
+        <section class="portfolio-content__item"  #projects>
+            <projects></projects>
+        </section>
+
+        <section class="portfolio-content__item"  #education>
+            <education></education>
+        </section>
+
+        <section class="portfolio-content__item"  #contact>
+            <contact></contact>
+        </section>
+</main>
+
+<footer class="portfolio-footer">
+    <profiles-footer class="hide-on-big-screens"></profiles-footer>
+    <a href="https://github.com/Ms26" target="_blank">Built by Matthew Sutton</a>
+</footer>
+
+<profiles-sidebar class="hide-on-small-screens"></profiles-sidebar>
+<contact-sidebar class="hide-on-small-screens"></contact-sidebar>

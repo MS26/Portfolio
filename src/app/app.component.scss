@@ -1,0 +1,62 @@
+@import './modules/shared/styles/varaibles';
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__item {
+    width: 90%;
+
+    @media only all and (min-width: $screen-size-medium) {
+      width: 75%;
+    }
+
+    @media only all and (min-width: $screen-size-large) {
+      width: 60%;
+    }
+
+    &:first-of-type {
+      position: relative;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      min-height: 100vh;
+    }
+
+    &:not(:first-of-type) {
+      padding-top: 6.5rem;
+    }
+
+    &:last-of-type {
+      padding-bottom: 6.5rem;
+    }
+  }
+}
+
+.portfolio-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+.hide-on-small-screens {
+  display: none;
+
+  @media only all and (min-width: $screen-size-medium) {
+    display: block;
+  }
+}
+
+.hide-on-big-screens {
+  display: block;
+
+  @media only all and (min-width: $screen-size-medium) {
+    display: none;
+  }
+}

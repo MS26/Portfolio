@@ -1,0 +1,73 @@
+@import '../../../shared/styles/varaibles';
+
+.overview {
+  display: flex;
+  flex-direction: column-reverse;
+
+  @media only all and (min-width: $screen-size-medium) {
+    flex-direction: row;
+  }
+
+  &__content {
+    margin: 1rem 0 1rem 0;
+
+    @media only all and (min-width: $screen-size-medium) {
+      width: 50%;
+
+      margin: 0 1rem 0 1rem;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    &__skills {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(140px, 200px));
+
+      gap: 0 10px;
+
+      padding: 0;
+      margin: 20px 0 0;
+
+      overflow: hidden;
+      list-style: none;
+
+      li {
+        position: relative;
+
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 10px;
+        padding-left: 20px;
+
+        &:before {
+          position: absolute;
+
+          content: "";
+
+          height: 1px;
+          width: 10px;
+          left: 0;
+
+          background-color: #ccd6f6;
+        }
+      }
+    }
+  }
+
+  &__image {
+    display: flex;
+    align-items: center;
+
+    img {
+      border-radius: 6px;
+      overflow: hidden;
+    }
+  }
+}

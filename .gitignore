@@ -1,0 +1,18 @@
+# dotnet compiled output
+**/bin
+**/obj
+
+# angular compiled output
+**/node_modules
+**/dist
+
+# editors
+*.idea
+*.angular
+*.vs
+*.DS_Store
+*.user
+*.sum
+
+# handlebars compiled output
+**/pdf/rendered

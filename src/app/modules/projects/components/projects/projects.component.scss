@@ -1,0 +1,102 @@
+@import '../../../shared/styles/varaibles';
+
+.projects {
+  display: grid;
+  grid-row-gap: 1rem;
+  grid-column-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+
+  &__object {
+    display: flex;
+    flex-basis: 33.33%;
+
+    background-color: $backgroundColourLight;
+
+    margin: 1rem 0 0;
+    padding: 2rem 1.75rem;
+    border-radius: 6px;
+
+    box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
+    &:hover {
+      box-shadow: 0 20px 30px -15px rgba(2,12,27,0.7);
+      transform: translateY(-10px);
+    }
+  }
+
+  &__result {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__header {
+      display: flex;
+      flex-direction: column;
+
+      &__title {
+        display: flex;
+        justify-content: space-between;
+
+        &__actions {
+          display: flex;
+
+          a {
+            margin: 0 0.25rem;
+
+            &:first-of-type {
+              margin-left: 0;
+            }
+
+            &:last-of-type {
+              margin-right: 0;
+            }
+
+            svg {
+              color: currentColor;
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    &__footer {
+      display: flex;
+      align-items: flex-end;
+
+      height: 100%;
+
+      margin-top: 1rem;
+
+      &__keywords {
+        display: flex;
+
+        padding: 0;
+        margin: 0;
+
+        overflow: hidden;
+        list-style: none;
+
+        li {
+          position: relative;
+
+          display: flex;
+          align-items: center;
+
+          margin: 0 0.5rem;
+
+          &:first-of-type {
+            margin-left: 0;
+          }
+
+          &:last-of-type {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+    "basics": {
+      "name": "Matthew Sutton",
+      "label": "Backend Software Engineer",
+      "summary": "Implementing demanding features, required by both clients and systems. Attracted to performance critical elements. Interested in solving problems at scale. Employer of both KISS and Avoid Premature Optimisation. Whilst abiding to the Agile methodology.",
+      "email": "hello@matthew-sutton.com",
+
+      "image": "https://avatars.githubusercontent.com/u/27786803?v=4",
+      "picture": "https://avatars.githubusercontent.com/u/27786803?v=4",
+      "phone": "",
+      "url": "https://matthew-sutton.com",
+      "website": "https://matthew-sutton.com",
+      "location": {
+        "address": "United Kingdom",
+        "postalCode": "",
+        "city": "",
+        "countryCode": "",
+        "region": ""
+      },
+      "github": {
+        "username": "MS26",
+        "url": "https://github.com/MS26"
+      },
+      "linkedin": {
+        "username": "Matthew Sutton",
+        "url": "https://www.linkedin.com/in/matthew-sutton-6a6466212/"
+      }
+    },
+    "work": [
+      {
+        "name": "Codeweavers",
+        "position": "Senior Software Engineer",
+        "url": "https://www.codeweavers.net",
+        "startDate": "June, 2021",
+        "endDate": "",
+        "summary": "Naturally moved into leading the development of the Vehicles platform and became involved in ensuring it was ready for the company’s expansion into Europe. Expanded my development abilities into the Frontend platform, aiding with projects that spanned across both areas.",
+        "highlights": [
+          {
+            "title": "Personal Highlight",
+            "description": "Extending our Facet based Search implementation to support displaying of a count against each available option. This required a re-architecture of the algorithm used and was done without impacting the performance of the service."
+          },
+          {
+            "title": "Tender",
+            "description": "Helped the director of operations ensure the platform delivered the products required by a client, quickly developing sustainable features to prove the platform could do what they required."
+          },
+          {
+            "title": "Internationalisation",
+            "description": "Managed a team of 6, developing our Vehicle Locator product to a point it was ready for an international release. Releasing it in <a href=\"https://selekt.volvocars.fr\" target=\"_blank\">France</a> first, with another 27 markets being released within the next couple of years."
+          },
+          {
+            "title": "Client Projects",
+            "description": "Volvo Global, Mercedes-Benz, Auto Trader"
+          }
+        ]
+      },
+      {
+        "name": "Codeweavers",
+        "position": "Software Engineer",
+        "url": "https://www.codeweavers.net",
+        "startDate": "June, 2019",
+        "endDate": "May, 2021",
+        "summary": "Began to work on both the production and continuous integration (CI) platform as well as continuing work on client based projects.",
+        "highlights": [
+          {
+            "title": "Personal Highlight",
+            "description": "Migrated the way one of our core applications stores and processes data reducing its memory foot print from 13.5GB to 6GB, whilst completely removing its usage of the Large Object Heap (LOH)."
+          },
+          {
+            "title": "Continuous Integration",
+            "description": "Increased our build throughput, developing the functionality of concurrent builds, for both related and un-related projects."
+          },
+          {
+            "title": "Continuous Deployment",
+            "description": "Implemented the functionality of concurrent deploys for unrelated projects. Increasing our deploys per day by 100%."
+          },
+          {
+            "title": "Sustainability",
+            "description": "Extended our implementation of Canary Testing to include the ability to replay requests for our core APIs during deploys and ensure the responses match within a defined tolerance."
+          },
+          {
+            "title": "Data Structures",
+            "description": "Modified an existing word index, used to enable free text searching, to use a Trie data structure. This reduced indexing memory consumption by over 2GB at peak working set. Then further modified the structure into a Compressed Trie data structure which reduced the node count from 477,085 to 144,229."
+          },
+          {
+            "title": "Client Projects",
+            "description": "BMW, Mini, Volvo, Auto Trader, Peugeot, Citroen, JLR, TFS, FCA"
+          }
+        ]
+      },
+      {
+        "name": "Codeweavers",
+        "position": "Placement Software Engineer",
+        "url": "https://www.codeweavers.net",
+        "startDate": "June, 2017",
+        "endDate": "May, 2019",
+        "summary": "Spent the 3rd year of my degree at The University of Derby as a placement student at Codeweavers.",
+        "highlights": [
+          {
+            "title": "Personal Highlight",
+            "description": "Being offered a full-time role in the first half of my placement, with the final year of my degree funded."
+          },
+          {
+            "title": "Professional Development",
+            "description": "Delivered a JLR project to help the upsell of Stock vehicles during a Build to Order journey. This was fundamental to me growing my confidence and understanding the complete journey of a project."
+          },
+          {
+            "title": "Client Projects",
+            "description": "BMW, Mini, Volvo, JLR"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "",
+        "level": "",
+        "keywords": [
+          "C#",
+          ".NET",
+          "Go",
+          "TypeScript",
+          "Angular",
+          "Cassandra",
+          "Postgres",
+          "SQL Server",
+          "AWS",
+          "GCP",
+          "Terraform",
+          "Docker"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Derby",
+        "url": "https://www.derby.ac.uk",
+        "area": "Computer Science",
+        "studyType": "Bachelor of Science Honours Degree",
+        "startDate": "September, 2015",
+        "endDate": "May, 2019",
+        "score": "First"
+      },
+      {
+        "institution": "Halesowen College",
+        "url": "https://www.halesowen.ac.uk",
+        "area": "Computing and Systems Development",
+        "studyType": "Higher National Diploma",
+        "startDate": "September, 2013",
+        "endDate": "May, 2015",
+        "score": "Distinction* Distinction* Distinction*"
+      }
+    ],
+    "awards": [],
+    "certificates": [],
+    "publications": [],
+    "languages": [],
+    "interests": [],
+    "references": [],
+    "projects": [
+      {
+        "name": "Volvo Global",
+        "description": "Just under a year a go I began leading a team on a project which was to build the used car locators for Volvo Global. This entailed building both the Frontend and the Backend for the project and hosting it in a way that could sustainable support Global usage.",
+        "url": "https://selekt.volvocars.fr",
+        "github_url": null,
+        "keywords": [
+          "C#",
+          "Angular",
+          "Cassandra",
+          "Postgres"
+        ]
+      },
+      {
+        "name": "Word Processing",
+        "description": "Attempting to reduce memory allocations during word processing.",
+        "url": null,
+        "github_url": "https://github.com/MS26/SpanIt",
+        "keywords": [
+          "C#",
+          ".NET"
+        ]
+      },
+      {
+        "name": "Word Indexing",
+        "description": "Attempting to reduce memory allocations and un-lock new natural language search features during word indexing.",
+        "url": null,
+        "github_url": "https://github.com/MS26/TrieIt",
+        "keywords": [
+          "C#",
+          ".NET"
+        ]
+      },
+      {
+        "name": "Portfolio",
+        "description": "Designing, building and hosting my portfolio site. Using the skills I've developed during my professional career to do so.",
+        "url": "https://matthew-sutton.com",
+        "github_url": "https://github.com/MS26/Portfolio",
+        "keywords": [
+          "TypeScript",
+          "Angular",
+          "AWS",
+          "Terraform"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,31 @@
+@import '../../../shared/styles/varaibles';
+
+.profiles {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  &__item {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    &__link {
+      margin: 10px auto;
+      padding: 10px;
+
+      svg {
+        color: currentColor;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

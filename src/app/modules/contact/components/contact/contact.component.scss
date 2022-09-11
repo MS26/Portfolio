@@ -1,0 +1,15 @@
+@import '../../../shared/styles/varaibles';
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__content {
+    align-self: baseline;
+  }
+
+  &__button {
+    margin-top: 2.5rem;
+  }
+}

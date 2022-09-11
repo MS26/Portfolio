@@ -1,0 +1,33 @@
+<heading [header]="'About Me'"></heading>
+
+<div class="overview">
+    <div class="overview__content">
+        <p>
+            My journey began back in 2011, during my school years, when I got introduced to programming during an after school club.
+            This escalated quickly to me spending my remaining years in education, studying computer science.
+        </p>
+
+        <p>
+            Having graduated in 2019, I've now had the privilege of working at a Car Finance company, working with clients from all over the globe.
+            My current focus is on building scalable, maintainable products ensuring a smooth digital experience for all of our customers.
+        </p>
+
+        <p>
+            I have also recently began to release examples of the performance critical issues I have been working on, showcasing the changes made and the benefits of these changes.
+        </p>
+
+        <p>
+            Here are a few technologies I’ve been working with recently:
+        </p>
+
+        <ul class="overview__content__skills">
+            <li *ngFor="let skill of data.skills[0].keywords">
+                <small>{{skill}}</small>
+            </li>
+        </ul>
+    </div>
+
+    <div class="overview__image">
+        <img width="100%" loading="lazy" src="{{data.basics.image}}" alt="Image of Matthew Sutton">
+    </div>
+</div>

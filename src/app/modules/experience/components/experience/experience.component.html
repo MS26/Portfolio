@@ -1,0 +1,29 @@
+<heading [header]="'Experience'"></heading>
+
+<div class="experience">
+    <div class="experience__object" *ngFor="let work of data.work; let i = index">
+        <div class="experience__result">
+            <header>
+                <h4>{{work.position}}</h4>
+
+                <div>
+                    <a href="{{work.url}}" target="_blank">{{work.name}}</a>
+                </div>
+
+                <div>
+                    <small>{{work.startDate}}</small>
+                    <small *ngIf="work.endDate"> - {{work.endDate}}</small>
+                    <small *ngIf="!work.endDate"> - Present</small>
+                </div>
+            </header>
+
+            <footer class="mt-2">
+                <p>{{work.summary}}</p>
+
+                <div class="experience__result__highlight" *ngFor="let highlight of work.highlights">
+                    <strong>{{highlight.title}}: </strong> <span [innerHtml]="highlight.description"></span>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
