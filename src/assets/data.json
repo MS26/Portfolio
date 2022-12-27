@@ -41,12 +41,12 @@
             "description": "Modifying the way our Frontend architecture is hosted, moving it to AWS using S3, Cloudfornt and Lambdas; reducing average latency across the globe by over 1 second."
           },
           {
-            "important": true,
+            "important": false,
             "title": "Internationalisation",
             "description": "Preparing the release of our Vehicle Locator into multiple new markets within the first quater of 2023."
           },
           {
-            "important": true,
+            "important": false,
             "title": "Client Projects",
             "description": "Volvo Global, Mercedes-Benz, BMW, Mini, Volvo, Auto Trader, Peugeot, Citroen, JLR, TFS, FCA"
           }
