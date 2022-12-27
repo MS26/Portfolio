@@ -49,7 +49,7 @@ jobs:
           hbs --data src/assets/data.json src/pdf/pdf.component.hbs --output src/pdf/rendered
 
       - name: Convert Data
-        uses: fifsky/html-to-pdf-action@master
+        uses: fifsky/html-to-pdf-action@v0.1.0
         with:
           htmlFile: ./src/pdf/rendered/pdf.component.html
           outputFile: ./src/pdf/rendered/resume.pdf
