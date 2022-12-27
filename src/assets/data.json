@@ -29,10 +29,32 @@
     "work": [
       {
         "name": "Codeweavers",
+        "position": "Lead Software Engineer",
+        "url": "https://www.codeweavers.net",
+        "startDate": "November, 2022",
+        "endDate": "",
+        "summary": "Progressed into the lead position within the Vehicle platform, managing and planning the projects, that the team backing the platform, would be working on. Speaking closely to clients, ensuring all requirments were fulfilled, in a way that enhanced the platform, for not only them but all clients using it.",
+        "highlights": [
+          {
+            "title": "Personal Highlight",
+            "description": "Modifying the way our Frontend architecture is hosted, moving it to AWS using S3, Cloudfornt and Lambdas; reducing average latency across the globe by over 1 second."
+          },
+          {
+            "title": "Internationalisation",
+            "description": "Preparing the release of our Vehicle Locator into multiple new markets within the first quater of 2023."
+          },
+          {
+            "title": "Client Projects",
+            "description": "Volvo Global, Mercedes-Benz, BMW, Mini, Volvo, Auto Trader, Peugeot, Citroen, JLR, TFS, FCA"
+          }
+        ]
+      },
+      {
+        "name": "Codeweavers",
         "position": "Senior Software Engineer",
         "url": "https://www.codeweavers.net",
         "startDate": "June, 2021",
-        "endDate": "",
+        "endDate": "October, 2022",
         "summary": "Naturally moved into a senior development role within the Vehicles platform and became involved in ensuring it was ready for the company’s expansion into Europe. Expanded my development abilities into the Frontend platform, aiding with projects that spanned across both areas.",
         "highlights": [
           {
