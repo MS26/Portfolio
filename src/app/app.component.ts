@@ -29,9 +29,9 @@ export class AppComponent implements OnInit {
       { name: 'og:description', content: this._resume.basics.summary },
       { name: 'twitter:description', content: this._resume.basics.summary },
 
-      { name: 'image', content: this._resume.basics.image },
-      { name: 'og:image', content: this._resume.basics.image },
-      { name: 'twitter:image', content: this._resume.basics.image },
+      { name: 'image', content: this._resume.basics.image.small },
+      { name: 'og:image', content: this._resume.basics.image.small },
+      { name: 'twitter:image', content: this._resume.basics.image.small },
 
       { name: 'og:url', content: this._resume.basics.website },
 

@@ -27,7 +27,7 @@ export interface IResumeBasics {
 
     email: string;
 
-    image: string;
+    image: IResumeImage;
     website: string;
 
     github: IResumeProfile;
@@ -37,6 +37,12 @@ export interface IResumeBasics {
 export interface IResumeProfile {
     username: string;
     url: string;
+}
+
+export interface IResumeImage {
+    small: string;
+    medium: string;
+    large: string;
 }
 
 export interface IResumeProject {

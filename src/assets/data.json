@@ -4,8 +4,11 @@
       "label": "Backend Software Engineer",
       "summary": "Implementing demanding features, required by both clients and systems. Attracted to performance critical elements. Interested in solving problems at scale. Employer of both KISS and Avoid Premature Optimisation. Whilst abiding to the Agile methodology.",
       "email": "hello@matthew-sutton.com",
-
-      "image": "https://content.matthew-sutton.com/avatar.webp",
+      "image": {
+        "small": "https://content.matthew-sutton.com/avatar_small.webp",
+        "medium": "https://content.matthew-sutton.com/avatar_medium.webp",
+        "large": "https://content.matthew-sutton.com/avatar_large.webp"
+      },
       "phone": "",
       "website": "https://matthew-sutton.com",
       "location": {

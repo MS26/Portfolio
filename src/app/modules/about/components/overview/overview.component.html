@@ -38,6 +38,10 @@
     </div>
 
     <div class="overview__image">
-        <img loading="lazy" src="{{data.basics.image}}" alt="Image of Matthew Sutton">
+        <picture>
+            <source srcset="{{data.basics.image.large}}" media="(min-width: 992px)"> <!-- Width taken from varaibles.scss -->
+            <source srcset="{{data.basics.image.medium}}" media="(min-width: 768px)"> <!-- Width taken from varaibles.scss -->
+            <img loading="lazy" decoding="async" src="{{data.basics.image.small}}" alt="Image of Matthew Sutton">
+        </picture>
     </div>
 </div>
