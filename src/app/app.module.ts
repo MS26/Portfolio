@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRouting } from './app.routing';
 import { AppComponent } from './app.component';
 import { AboutModule } from './modules/about/about.module';
 import { EducationModule } from './modules/education/education.module';
@@ -22,8 +21,7 @@ import {ProjectsModule} from './modules/projects/projects.module';
     ContactModule,
     ProfilesModule,
     ProjectsModule,
-    SharedModule,
-    AppRouting
+    SharedModule
   ],
   providers: [],
   bootstrap: [
