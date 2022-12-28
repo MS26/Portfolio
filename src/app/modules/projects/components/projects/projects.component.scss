@@ -31,9 +31,13 @@
     flex-direction: column;
     align-items: flex-start;
 
+    width: 100%;
+
     &__header {
       display: flex;
       flex-direction: column;
+
+      width: 100%;
 
       &__title {
         display: flex;
@@ -43,6 +47,11 @@
           display: flex;
 
           a {
+            width: 48px;
+            height: 48px;
+
+            text-align: center;
+
             margin: 0 0.25rem;
 
             &:first-of-type {
