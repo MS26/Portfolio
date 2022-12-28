@@ -25,7 +25,7 @@ jobs:
         run: npm run lint
 
       - name: Run Build
-        run: npm run prerender
+        run: npm run build:pr
 
       - uses: actions/upload-artifact@v3
         with:

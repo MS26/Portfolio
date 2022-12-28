@@ -2,17 +2,10 @@
   "name": "portfolio",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "build:ci": "ng build --configuration \"production\" --aot",
-    "dev:ssr": "ng run portfolio:serve-ssr",
-    "serve:ssr": "node dist/portfolio/server/main.js",
+    "build:pr": "ng run portfolio:prerender",
     "build:ssr": "ng build && ng run portfolio:server",
-    "prerender": "ng run portfolio:prerender"
+    "serve:ssr": "node dist/portfolio/server/main.js"
   },
   "private": true,
   "dependencies": {
