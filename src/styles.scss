@@ -100,6 +100,15 @@ p, pre, span, label, div, body {
   font-size: 1rem;
 }
 
+em {
+  font-family: $monoFontFamily;
+
+  color: $fontColourLight;
+
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 strong {
   color: $fontColourLighter;
 
