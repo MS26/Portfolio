@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16.x
 
@@ -27,7 +27,7 @@ jobs:
       - name: Run Build
         run: npm run build:ci
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: release-app
           path: ./dist/portfolio/*
@@ -38,7 +38,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Install Handlebars
         run: |
@@ -55,7 +55,7 @@ jobs:
           outputFile: ./src/pdf/rendered/resume.pdf
           pdfOptions: '{"format": "A4", "printBackground": true}'
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: release-pdf
           path: ./src/pdf/rendered/resume.pdf
@@ -70,12 +70,12 @@ jobs:
       cancel-in-progress: true
 
     steps:
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: release-app
           path: ./release
 
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: release-pdf
           path: ./release
