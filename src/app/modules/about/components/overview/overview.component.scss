@@ -73,6 +73,8 @@
       border-radius: 6px;
       overflow: hidden;
 
+      aspect-ratio: 1 / 1;
+
       @media only all and (min-width: $screen-size-medium) {
         width: 270px;
         height: 360px;
