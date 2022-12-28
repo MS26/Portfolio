@@ -66,7 +66,7 @@
     align-items: center;
     justify-content: center;
 
-    img {
+    img { // 3024 x 4032
       width: 360px;
       height: 480px;
 
@@ -79,7 +79,7 @@
       }
 
       @media only all and (min-width: $screen-size-large) {
-        width: 280px;
+        width: 281.25px;
         height: 375px;
       }
 
