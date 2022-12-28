@@ -25,12 +25,12 @@ jobs:
         run: npm run lint
 
       - name: Run Build
-        run: npm run build:ci
+        run: npm run prerender
 
       - uses: actions/upload-artifact@v3
         with:
           name: release-app
-          path: ./dist/portfolio/*
+          path: ./dist/portfolio/browser/*
           retention-days: 1
 
   build-pdf:

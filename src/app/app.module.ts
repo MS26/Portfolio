@@ -15,7 +15,7 @@ import {ProjectsModule} from './modules/projects/projects.module';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AboutModule,
     EducationModule,
     ExperienceModule,
