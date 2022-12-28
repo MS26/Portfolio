@@ -66,29 +66,14 @@
     align-items: center;
     justify-content: center;
 
-    img { // 3024 x 4032
-      width: 360px;
-      height: 480px;
-
-      border-radius: 6px;
-      overflow: hidden;
+    img {
+      width: 100%;
+      height: auto;
 
       aspect-ratio: 0.75;
 
-      @media only all and (min-width: $screen-size-medium) {
-        width: 270px;
-        height: 360px;
-      }
-
-      @media only all and (min-width: $screen-size-large) {
-        width: 281.25px;
-        height: 375px;
-      }
-
-      @media only all and (min-width: $screen-size-extra-large) {
-        width: 345px;
-        height: 460px;
-      }
+      border-radius: 6px;
+      overflow: hidden;
     }
   }
 }
