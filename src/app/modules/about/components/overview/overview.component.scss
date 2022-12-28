@@ -12,7 +12,7 @@
     margin: 1rem 0 1rem 0;
 
     @media only all and (min-width: $screen-size-medium) {
-      width: 50%;
+      min-width: 50%;
 
       margin: 0 1rem 0 1rem;
 
