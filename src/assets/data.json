@@ -37,11 +37,11 @@
         "highlights": [
           {
             "title": "Personal Highlight",
-            "description": "Modifying the way our Frontend architecture is hosted, moving it to AWS using S3, Cloudfornt and Lambdas; reducing average latency across the globe by over 1 second."
+            "description": "Modifying the way our Frontend architecture is hosted, moving it to AWS. This reduced average latency across the globe by over 1 second."
           },
           {
             "title": "Internationalisation",
-            "description": "Preparing the release of our Vehicle Locator into multiple new markets within the first quater of 2023."
+            "description": "Preparing the release of our Vehicle Locator into multiple new markets within the first quarter of 2023."
           },
           {
             "title": "Client Projects",
