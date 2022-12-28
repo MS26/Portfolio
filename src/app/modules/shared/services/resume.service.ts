@@ -15,7 +15,8 @@ export interface IResume {
 
     work: Array<IResumeWork>
     education: Array<IResumeEducation>
-    skills: Array<IResumeSkill>
+    skills: Array<string>
+    clients: Array<string>
     projects: Array<IResumeProject>
 }
 
@@ -36,12 +37,6 @@ export interface IResumeBasics {
 export interface IResumeProfile {
     username: string;
     url: string;
-}
-
-export interface IResumeSkill {
-    name: string;
-    level: string;
-    keywords: Array<string>;
 }
 
 export interface IResumeProject {

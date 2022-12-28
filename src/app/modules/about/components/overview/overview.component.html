@@ -20,9 +20,19 @@
             Here are a few technologies I’ve been working with recently:
         </p>
 
-        <ul class="overview__content__skills">
-            <li *ngFor="let skill of data.skills[0].keywords">
+        <ul class="overview__content__list">
+            <li *ngFor="let skill of data.skills">
                 <small>{{skill}}</small>
+            </li>
+        </ul>
+
+        <p>
+            Here are the clients I’ve been working with recently:
+        </p>
+
+        <ul class="overview__content__list">
+            <li *ngFor="let client of data.clients">
+                <small>{{client}}</small>
             </li>
         </ul>
     </div>

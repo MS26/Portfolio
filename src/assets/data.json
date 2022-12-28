@@ -42,10 +42,6 @@
           {
             "title": "Internationalisation",
             "description": "Preparing the release of our Vehicle Locator into multiple new markets within the first quarter of 2023."
-          },
-          {
-            "title": "Client Projects",
-            "description": "Volvo Global, Mercedes-Benz, BMW, Mini, Volvo, Auto Trader, Peugeot, Citroen, JLR, TFS, FCA"
           }
         ]
       },
@@ -68,10 +64,6 @@
           {
             "title": "Internationalisation",
             "description": "Managed a team of 6, developing our Vehicle Locator product to a point it was ready for an international release. Releasing it in <a href=\"https://selekt.volvocars.fr\" target=\"_blank\">France</a> first, being closely followed by  another 27 markets."
-          },
-          {
-            "title": "Client Projects",
-            "description": "Volvo Global, Mercedes-Benz, Auto Trader"
           }
         ]
       },
@@ -102,10 +94,6 @@
           {
             "title": "Data Structures",
             "description": "Modified an existing word index, used to enable free text searching, to use a Trie data structure. This reduced indexing memory consumption by over 2GB at peak working set. Then further modified the structure into a Compressed Trie data structure which reduced the node count from 477,085 to 144,229."
-          },
-          {
-            "title": "Client Projects",
-            "description": "BMW, Mini, Volvo, Auto Trader, Peugeot, Citroen, JLR, TFS, FCA"
           }
         ]
       },
@@ -124,33 +112,37 @@
           {
             "title": "Professional Development",
             "description": "Delivered a JLR project to help the upsell of Stock vehicles during a Build to Order journey. This was fundamental to me growing my confidence and understanding the complete journey of a project."
-          },
-          {
-            "title": "Client Projects",
-            "description": "BMW, Mini, Volvo, JLR"
           }
         ]
       }
     ],
+    "clients": [
+      "Volvo",
+      "Hendy",
+      "Auto Trader",
+      "Mercedes-Benz",
+      "BMW",
+      "Mini",
+      "Peugeot",
+      "Citroen",
+      "Toyota",
+      "Lexus",
+      "FCA",
+      "JLR"
+    ],
     "skills": [
-      {
-        "name": "",
-        "level": "",
-        "keywords": [
-          "C#",
-          ".NET",
-          "Go",
-          "TypeScript",
-          "Angular",
-          "Cassandra",
-          "Postgres",
-          "SQL Server",
-          "AWS",
-          "GCP",
-          "Terraform",
-          "Docker"
-        ]
-      }
+      "C#",
+      ".NET",
+      "Go",
+      "TypeScript",
+      "Angular",
+      "Cassandra",
+      "Postgres",
+      "SQL Server",
+      "AWS",
+      "GCP",
+      "Terraform",
+      "Docker"
     ],
     "education": [
       {

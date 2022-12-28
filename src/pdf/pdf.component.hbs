@@ -181,6 +181,14 @@
             margin-right: 0.5rem;
         }
 
+        .flex-row-container .clients-container {
+            margin: 0.75rem 0;
+        }
+
+        .flex-row-container .clients-container .clients-container-item {
+            margin-right: 0.5rem;
+        }
+
         .flex-row-container .projects-container {
             margin: 0.75rem 0;
         }
@@ -295,9 +303,15 @@
             <h4>Skills</h4>
 
             {{#each skills}}
-                {{#each this.keywords}}
-                    <span class="skills-container-item">{{this}}</span>
-                {{/each}}
+                <span class="skills-container-item">{{this}}</span>
+            {{/each}}
+        </div>
+
+        <div class="clients-container">
+            <h4>Clients</h4>
+
+            {{#each clients}}
+                <span class="clients-container-item">{{this}}</span>
             {{/each}}
         </div>
 
