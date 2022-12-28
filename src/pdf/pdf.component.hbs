@@ -274,11 +274,9 @@
                     <p class="experience-container-item-description">{{{this.summary}}}</p>
 
                     {{#each this.highlights}}
-                        {{#if this.important}}
-                            <div class="experience-container-item-highlight">
-                                <strong>{{this.title}}: </strong> <span>{{{this.description}}}</span>
-                            </div>
-                        {{/if}}
+                        <div class="experience-container-item-highlight">
+                            <strong>{{this.title}}: </strong> <span>{{{this.description}}}</span>
+                        </div>
                     {{/each}}
                 </footer>
             </div>

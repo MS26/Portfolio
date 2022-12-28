@@ -63,7 +63,6 @@ export interface IResumeWork {
 }
 
 export interface IResumeWorkHighlight {
-    important: boolean;
     title: string;
     description: string;
 }

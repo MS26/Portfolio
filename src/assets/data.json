@@ -36,17 +36,14 @@
         "summary": "Progressed into the lead position within the Vehicle platform, managing and planning the projects, that the team backing the platform, would be working on. Speaking closely to clients, ensuring all requirments were fulfilled, in a way that enhanced the platform, for not only them but all clients using it.",
         "highlights": [
           {
-            "important": true,
             "title": "Personal Highlight",
             "description": "Modifying the way our Frontend architecture is hosted, moving it to AWS using S3, Cloudfornt and Lambdas; reducing average latency across the globe by over 1 second."
           },
           {
-            "important": false,
             "title": "Internationalisation",
             "description": "Preparing the release of our Vehicle Locator into multiple new markets within the first quater of 2023."
           },
           {
-            "important": false,
             "title": "Client Projects",
             "description": "Volvo Global, Mercedes-Benz, BMW, Mini, Volvo, Auto Trader, Peugeot, Citroen, JLR, TFS, FCA"
           }
@@ -61,22 +58,18 @@
         "summary": "Naturally moved into a senior development role within the Vehicles platform and became involved in ensuring it was ready for the company’s expansion into Europe. Expanded my development abilities into the Frontend platform, aiding with projects that spanned across both areas.",
         "highlights": [
           {
-            "important": true,
             "title": "Personal Highlight",
             "description": "Extending our Facet based Search implementation to support displaying of a count against each available option. This required a re-architecture of the algorithm used and was done without impacting the performance of the service."
           },
           {
-            "important": false,
             "title": "Tender",
             "description": "Helped the director of operations ensure the platform delivered the products required by a client, quickly developing sustainable features to prove the platform could do what they required."
           },
           {
-            "important": true,
             "title": "Internationalisation",
             "description": "Managed a team of 6, developing our Vehicle Locator product to a point it was ready for an international release. Releasing it in <a href=\"https://selekt.volvocars.fr\" target=\"_blank\">France</a> first, with another 27 markets being released within the next couple of years."
           },
           {
-            "important": false,
             "title": "Client Projects",
             "description": "Volvo Global, Mercedes-Benz, Auto Trader"
           }
@@ -91,32 +84,26 @@
         "summary": "Began to work on both the production and continuous integration (CI) platform as well as continuing work on client based projects.",
         "highlights": [
           {
-            "important": true,
             "title": "Personal Highlight",
             "description": "Migrated the way one of our core applications stores and processes data reducing its memory foot print from 13.5GB to 6GB, whilst completely removing its usage of the Large Object Heap (LOH)."
           },
           {
-            "important": true,
             "title": "Continuous Integration",
             "description": "Increased our build throughput, developing the functionality of concurrent builds, for both related and un-related projects."
           },
           {
-            "important": true,
             "title": "Continuous Deployment",
             "description": "Implemented the functionality of concurrent deploys for unrelated projects. Increasing our deploys per day by 100%."
           },
           {
-            "important": true,
             "title": "Sustainability",
             "description": "Extended our implementation of Canary Testing to include the ability to replay requests for our core APIs during deploys and ensure the responses match within a defined tolerance."
           },
           {
-            "important": true,
             "title": "Data Structures",
             "description": "Modified an existing word index, used to enable free text searching, to use a Trie data structure. This reduced indexing memory consumption by over 2GB at peak working set. Then further modified the structure into a Compressed Trie data structure which reduced the node count from 477,085 to 144,229."
           },
           {
-            "important": false,
             "title": "Client Projects",
             "description": "BMW, Mini, Volvo, Auto Trader, Peugeot, Citroen, JLR, TFS, FCA"
           }
@@ -131,17 +118,14 @@
         "summary": "Spent the 3rd year of my degree at The University of Derby as a placement student at Codeweavers.",
         "highlights": [
           {
-            "important": true,
             "title": "Personal Highlight",
             "description": "Being offered a full-time role in the first half of my placement, with the final year of my degree funded."
           },
           {
-            "important": false,
             "title": "Professional Development",
             "description": "Delivered a JLR project to help the upsell of Stock vehicles during a Build to Order journey. This was fundamental to me growing my confidence and understanding the complete journey of a project."
           },
           {
-            "important": false,
             "title": "Client Projects",
             "description": "BMW, Mini, Volvo, JLR"
           }
