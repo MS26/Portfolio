@@ -46,19 +46,19 @@ jobs:
 
       - name: Render Data
         run: |
-          mustache src/assets/data.json src/pdf/pdf.component.tpl src/pdf/rendered/pdf.component.html
+          mustache src/assets/data.json src/pdf/pdf.component.tpl src/pdf/pdf.component.html
 
       - name: Convert Data
         uses: fifsky/html-to-pdf-action@v0.1.0
         with:
-          htmlFile: ./src/pdf/rendered/pdf.component.html
-          outputFile: ./src/pdf/rendered/resume.pdf
+          htmlFile: ./src/pdf/pdf.component.html
+          outputFile: ./src/pdf/resume.pdf
           pdfOptions: '{"format": "A4", "pageRanges": "1", "printBackground": true}'
 
       - uses: actions/upload-artifact@v3
         with:
           name: release-pdf
-          path: ./src/pdf/rendered/resume.pdf
+          path: ./src/pdf/resume.pdf
           retention-days: 1
 
   deploy:
