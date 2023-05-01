@@ -40,18 +40,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-
       - name: Install Handlebars
         run: |
-          npm install -g hbs-cli
+          npm install -g mustache
 
       - name: Render Data
         run: |
-          hbs --data src/assets/data.json src/pdf/pdf.component.hbs --output src/pdf/rendered
+          mustache src/assets/data.json src/pdf/pdf.component.tpl src/pdf/rendered/pdf.component.html
 
       - name: Convert Data
         uses: fifsky/html-to-pdf-action@v0.1.0

@@ -265,90 +265,92 @@
     <div class="experience-container">
         <h4>Experience</h4>
 
-        {{#each work}}
+        {{#work}}
             <div class="experience-container-item">
                 <header>
-                    <h6>{{this.position}}</h6>
+                    <h6>{{position}}</h6>
 
                     <div>
-                        <strong>{{this.name}}</strong>
+                        <strong>{{name}}</strong>
                     </div>
 
                     <div>
-                        <strong>{{this.startDate}}</strong>
+                        <strong>{{startDate}}</strong>
 
-                        {{#if this.endDate}}
-                            <strong> - {{this.endDate}}</strong>
-                        {{else}}
+                        {{#endDate}}
+                            <strong> - {{endDate}}</strong>
+                        {{/endDate}}
+                        {{^endDate}}
                             <strong> - Present</strong>
-                        {{/if}}
+                        {{/endDate}}
                     </div>
                 </header>
 
                 <footer>
-                    <p class="experience-container-item-description">{{{this.summary}}}</p>
+                    <p class="experience-container-item-description">{{{summary}}}</p>
 
-                    {{#each this.highlights}}
+                    {{#highlights}}
                         <div class="experience-container-item-highlight">
-                            <strong>{{this.title}}: </strong> <span>{{{this.description}}}</span>
+                            <strong>{{title}}: </strong> <span>{{{description}}}</span>
                         </div>
-                    {{/each}}
+                    {{/highlights}}
                 </footer>
             </div>
-        {{/each}}
+        {{/work}}
     </div>
 
     <div class="flex-row-container">
         <div class="skills-container">
             <h4>Skills</h4>
 
-            {{#each skills}}
-                <span class="skills-container-item">{{this}}</span>
-            {{/each}}
+            {{#skills}}
+                <span class="skills-container-item">{{.}}</span>
+            {{/skills}}
         </div>
 
         <div class="clients-container">
             <h4>Clients</h4>
 
-            {{#each clients}}
-                <span class="clients-container-item">{{this}}</span>
-            {{/each}}
+            {{#clients}}
+                <span class="clients-container-item">{{.}}</span>
+            {{/clients}}
         </div>
 
         <div class="projects-container">
             <h4>Projects</h4>
 
-            {{#each projects}}
+            {{#projects}}
                 <div class="projects-container-item">
                     <div>
-                        <strong>{{this.name}}</strong>
+                        <strong>{{name}}</strong>
                     </div>
-                    <span>{{this.description}}</span>
+                    <span>{{description}}</span>
                 </div>
-            {{/each}}
+            {{/projects}}
         </div>
 
         <div class="education-container">
             <h4>Education</h4>
 
-            {{#each education}}
+            {{#education}}
                 <div class="education-container-item">
                     <div>
-                        <strong>{{this.area}}</strong>
+                        <strong>{{area}}</strong>
 
                         <div>
-                            <strong>{{this.startDate}}</strong>
+                            <strong>{{startDate}}</strong>
 
-                            {{#if this.endDate}}
-                                <strong> - {{this.endDate}}</strong>
-                            {{else}}
+                            {{#endDate}}
+                                <strong> - {{endDate}}</strong>
+                            {{/endDate}}
+                            {{^endDate}}
                                 <strong> - Present</strong>
-                            {{/if}}
+                            {{/endDate}}
                         </div>
                     </div>
-                    <span>Studying a {{this.studyType}} at {{this.institution}}.</span>
+                    <span>Studying a {{studyType}} at {{institution}}.</span>
                 </div>
-            {{/each}}
+            {{/education}}
         </div>
     </div>
 </div>
