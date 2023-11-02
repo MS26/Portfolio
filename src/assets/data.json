@@ -38,15 +38,15 @@
         "highlights": [
           {
             "title": "Personal Highlight",
-            "description": "Migrating our Frontend architexture to be hosted from AWS, reducing average latency by over 1 second. Then working on the migration of our Backend to AWS, currently focusing on the update of the framework from .Net Framwork 4.7 to .Net 6."
+            "description": "Migrating our Frontend architecture to be hosted from AWS, reducing average latency by over 1 second. Then working on the migration of our Backend to AWS, currently focusing on the update of the framework from .Net Framework 4.7 to .Net 6."
           },
           {
             "title": "Management",
-            "description": "Taking on the responsibility of managing multiple developers within the Digital Store platform. Conducting monthly individual catchups and ensuring the team is meeting the expected requirements. Whilst also taking an active role in recruitment."
+            "description": "Taking on the responsibility of managing multiple developers within the Digital Store platform. Conducting monthly individual catchup's and ensuring the team is meeting the expected requirements. Whilst also taking an active role in recruitment."
           },
           {
             "title": "Internationalisation",
-            "description": "Releasing our Digital Store into multiple new markets; <a href=\"https://selekt.volvocars.co.uk\" target=\"_blank\">UK</a>, <a href=\"https://selekt.volvocars.no\" target=\"_blank\">Norway</a>, <a href=\"https://selekt.volvocars.at\" target=\"_blank\">Austria</a>. All using the same platform with a peronslised confiugration, making the site their own."
+            "description": "Releasing our Digital Store into multiple new markets; <a href=\"https://selekt.volvocars.co.uk\" target=\"_blank\">UK</a>, <a href=\"https://selekt.volvocars.no\" target=\"_blank\">Norway</a>, <a href=\"https://selekt.volvocars.at\" target=\"_blank\">Austria</a> and many more. All using the same platform with a personalised configuration, making the site their own."
           }
         ]
       },
