@@ -49,7 +49,7 @@ jobs:
           mustache src/assets/data.json src/pdf/pdf.component.tpl src/pdf/pdf.component.html
 
       - name: Convert Data
-        uses: fifsky/html-to-pdf-action@v0.1.0
+        uses: fifsky/html-to-pdf-action@master
         with:
           htmlFile: ./src/pdf/pdf.component.html
           outputFile: ./src/pdf/resume.pdf
