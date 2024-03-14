@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 16.x
+          node-version: 20
 
       - name: Run Install
         run: npm ci
@@ -27,7 +27,7 @@ jobs:
       - name: Run Build
         run: npm run build:pr
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: release-app
           path: ./dist/portfolio/browser/*
@@ -38,9 +38,9 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Install Handlebars
+      - name: Install Mustache
         run: |
           npm install -g mustache
 
@@ -55,7 +55,7 @@ jobs:
           outputFile: ./src/pdf/resume.pdf
           pdfOptions: '{"format": "A4", "pageRanges": "1", "printBackground": true}'
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: release-pdf
           path: ./src/pdf/resume.pdf
@@ -70,12 +70,12 @@ jobs:
       cancel-in-progress: true
 
     steps:
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: release-app
           path: ./release
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: release-pdf
           path: ./release
@@ -88,7 +88,7 @@ jobs:
           activate: true
           
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1-node16
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
