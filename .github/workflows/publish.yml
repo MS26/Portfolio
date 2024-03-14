@@ -80,7 +80,7 @@ jobs:
           name: release-pdf
           path: ./release
 
-      - uses: servemy-site/upload-release@d11be316bab36a050c2f44df0b223339fcad56b0
+      - uses: servemy-site/upload-release@main
         with:
           session-reference: ${{ secrets.SERVE_MY_SITE_SESSION_REFERENCE }}
           project-reference: ${{ secrets.SERVE_MY_SITE_PROJECT_REFERENCE }}
