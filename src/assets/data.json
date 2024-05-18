@@ -190,6 +190,18 @@
         ]
       },
       {
+        "name": "Portfolio",
+        "description": "Designing, building and hosting my portfolio site. Using the skills I've developed during my professional career to do so.",
+        "url": "https://matthew-sutton.com",
+        "github_url": "https://github.com/MS26/Portfolio",
+        "keywords": [
+          "TypeScript",
+          "Angular",
+          "AWS",
+          "Terraform"
+        ]
+      },
+      {
         "name": "Word Processing",
         "description": "Attempting to reduce memory allocations during word processing.",
         "url": null,
@@ -207,18 +219,6 @@
         "keywords": [
           "C#",
           ".NET"
-        ]
-      },
-      {
-        "name": "Portfolio",
-        "description": "Designing, building and hosting my portfolio site. Using the skills I've developed during my professional career to do so.",
-        "url": "https://matthew-sutton.com",
-        "github_url": "https://github.com/MS26/Portfolio",
-        "keywords": [
-          "TypeScript",
-          "Angular",
-          "AWS",
-          "Terraform"
         ]
       }
     ]
