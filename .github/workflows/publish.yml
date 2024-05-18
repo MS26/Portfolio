@@ -86,20 +86,3 @@ jobs:
           project-reference: ${{ secrets.SERVE_MY_SITE_PROJECT_REFERENCE }}
           path: ./release
           activate: true
-          
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
-
-      - name: Run Deploy
-        run:  |
-          aws s3 sync ./release/ ${{ secrets.AWS_S3_URL }} --delete --sse=AES256
-          response=$(aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths '/*')
-
-          id=$(echo $response | grep "Id" | awk -F'"' '{ print $4 }')
-
-          echo $response
-          echo $id
