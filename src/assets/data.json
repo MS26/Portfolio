@@ -177,15 +177,16 @@
     "references": [],
     "projects": [
       {
-        "name": "Volvo Global",
-        "description": "Just under a year a go I began leading a team on a project which was to build the used car locators for Volvo Global. This entailed building both the Frontend and the Backend for the project and hosting it in a way that could sustainable support Global usage.",
-        "url": "https://selekt.volvocars.fr",
+        "name": "Serve My Site",
+        "description": "Building a self-serve hosting platform for Web Applications. Focusing on providing immediate deployments and next level performance when serving the hosted applications.",
+        "url": "https://servemy.site",
         "github_url": null,
         "keywords": [
           "C#",
-          "Angular",
+          ".NET",
           "Cassandra",
-          "Postgres"
+          "AWS",
+          "Terraform"
         ]
       },
       {
