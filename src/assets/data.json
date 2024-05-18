@@ -38,7 +38,7 @@
         "highlights": [
           {
             "title": "Personal Highlight",
-            "description": "Migrating our Frontend architecture to be hosted from AWS, reducing average latency by over 1 second. Then working on the migration of our Backend to AWS, currently focusing on the update of the framework from .Net Framework 4.7 to .Net 6."
+            "description": "Migrating our Frontend architecture to have all assets hosted from AWS, reducing average latency by over 1 second. Then working on the migration of our Backend to AWS, currently focusing on the update of the framework from .Net Framework 4.7 to .Net 8."
           },
           {
             "title": "Management",
