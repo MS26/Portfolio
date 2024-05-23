@@ -183,7 +183,7 @@
     "projects": [
       {
         "name": "Serve My Site",
-        "description": "Building a self-serve hosting platform for Web Applications. Focusing on providing immediate deployments and next level performance when serving the hosted applications.",
+        "description": "Building a self-serve hosting platform for Web Applications. Focusing on providing immediate deployments and next level performance when serving the hosted applications. Currently hosting my Portfolio and other personal projects.",
         "url": "https://servemy.site",
         "github_url": null,
         "keywords": [
