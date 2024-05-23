@@ -64,7 +64,7 @@
             font-weight: 700;
             font-size: 1rem;
 
-            margin: 0.5rem 0;
+            margin: 0.25rem 0;
         }
 
         strong {
@@ -148,7 +148,7 @@
         }
 
         .flex-container .experience-container .experience-container-item .experience-container-item-description {
-            margin: 0.25rem 0 0.5rem 0;
+            margin: 0.5rem 0 0.5rem 0;
         }
 
         .flex-container .experience-container .experience-container-item .experience-container-item-highlight {
@@ -271,18 +271,9 @@
                     <h6>{{position}}</h6>
 
                     <div>
-                        <strong>{{name}}</strong>
-                    </div>
-
-                    <div>
-                        <strong>{{startDate}}</strong>
-
-                        {{#endDate}}
-                            <strong> - {{endDate}}</strong>
-                        {{/endDate}}
-                        {{^endDate}}
-                            <strong> - Present</strong>
-                        {{/endDate}}
+                        <strong>
+                            {{name}} ({{startDate}} {{#endDate}}- {{endDate}}{{/endDate}}{{^endDate}}- Present{{/endDate}})
+                        </strong>
                     </div>
                 </header>
 
