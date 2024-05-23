@@ -45,6 +45,10 @@
             "description": "Taking on the responsibility of managing multiple developers within the Digital Store platform. Conducting monthly individual catchup's and ensuring the team is meeting the expected requirements. Whilst also taking an active role in recruitment."
           },
           {
+            "title": "Communication",
+            "description": "Working closely with other companies within Cox Automotive, delivering combined products to our customers. Reaching out to providers ensuring that our integrations are delivering the best service for our products."
+          },
+          {
             "title": "Internationalisation",
             "description": "Releasing our Digital Store into multiple new markets; <a href=\"https://selekt.volvocars.co.uk\" target=\"_blank\">UK</a>, <a href=\"https://selekt.volvocars.no\" target=\"_blank\">Norway</a>, <a href=\"https://selekt.volvocars.at\" target=\"_blank\">Austria</a> and many more. All using the same platform with a personalised configuration, making the site their own."
           }
@@ -63,8 +67,8 @@
             "description": "Extending our Facet Search implementation to support counts against each available option. This required a re-architecture of the algorithm used and was done without impacting its performance."
           },
           {
-            "title": "Tender",
-            "description": "Helped the director of operations ensure the platform delivered the products required by a client, quickly developing sustainable features to prove the platform could fulfil their requirements."
+            "title": "Tenders",
+            "description": "Ensuring the platform delivered the products required by a client, quickly developing sustainable features for demonstrations to prove the platform could fulfil their requirements."
           },
           {
             "title": "Internationalisation",
@@ -123,27 +127,24 @@
     ],
     "clients": [
       "Volvo",
+      "Novuna",
       "Hendy",
       "Auto Trader",
       "Mercedes-Benz",
       "BMW",
       "Mini",
-      "Peugeot",
-      "Citroen",
+      "Stellantis",
       "Toyota",
       "Lexus",
-      "FCA",
       "JLR"
     ],
     "skills": [
       "C#",
       ".NET",
-      "Go",
       "TypeScript",
       "Angular",
       "Cassandra",
       "Postgres",
-      "SQL Server",
       "AWS",
       "GCP",
       "Terraform",
