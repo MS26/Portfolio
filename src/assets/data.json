@@ -90,7 +90,7 @@
         "highlights": [
           {
             "title": "Personal Highlight",
-            "description": "Migrated the way one of our core applications stores and processes data reducing its memory foot print from 13.5GB to 6GB, whilst completely removing its usage of the Large Object Heap (LOH)."
+            "description": "Migrated the way one of our core applications stores and processes data, reducing its memory foot print from 13.5GB to 6GB, whilst completely removing its usage of the Large Object Heap (LOH)."
           },
           {
             "title": "Continuous Integration",
