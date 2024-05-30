@@ -6,7 +6,7 @@ The first iteration of <a href="https://matthew-sutton.com" target="_blank">matt
 
 ### Inspiration
 
-Designing sites is definitely not my forte. So whilst I did build this site from the ground up, I took design inspiration from [brittanychiang.com](https://brittanychiang.com).
+Designing sites is definitely not my forte. So whilst I did build this site from the ground up, I took design inspiration from [v4.brittanychiang.com](https://v4.brittanychiang.com).
 
 ### TL;DR
 
