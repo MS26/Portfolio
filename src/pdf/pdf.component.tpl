@@ -132,7 +132,7 @@
         }
 
         .flex-container .experience-container {
-            margin: 0.25rem 0;
+            margin: 0;
         }
 
         .flex-container .experience-container .experience-container-item {
