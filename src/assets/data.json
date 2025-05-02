@@ -154,28 +154,28 @@
             "title": "Continuous Integration",
             "description": "Increased our build throughput, developing the functionality of concurrent builds, for both related and un-related projects.",
             "display": {
-              "pdf": true
+              "pdf": false
             }
           },
           {
             "title": "Continuous Deployment",
             "description": "Implemented the functionality of concurrent deploys for unrelated projects. Increasing our deploys per day by 100%.",
             "display": {
-              "pdf": true
+              "pdf": false
             }
           },
           {
             "title": "Sustainability",
             "description": "Extended our implementation of Canary Testing to include the ability to replay requests for our core APIs during deploys and ensure the responses match within a defined tolerance.",
             "display": {
-              "pdf": true
+              "pdf": false
             }
           },
           {
             "title": "Data Structures",
             "description": "Modified an existing word index, used to enable free text searching, to use a Trie data structure. This reduced indexing memory consumption by over 2GB at peak working set. Then further modified the structure into a Compressed Trie data structure which reduced the node count from 477,085 to 144,229.",
             "display": {
-              "pdf": true
+              "pdf": false
             }
           }
         ]
@@ -199,7 +199,7 @@
             "title": "Professional Development",
             "description": "Delivered a JLR project to help the upsell of Stock vehicles during a Build to Order journey. This was fundamental to me growing my confidence and understanding the complete journey of a project.",
             "display": {
-              "pdf": true
+              "pdf": false
             }
           }
         ]
