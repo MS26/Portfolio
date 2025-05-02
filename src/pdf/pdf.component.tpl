@@ -281,9 +281,11 @@
                     <p class="experience-container-item-description">{{{summary}}}</p>
 
                     {{#highlights}}
-                        <div class="experience-container-item-highlight">
-                            <strong>{{title}}: </strong> <span>{{{description}}}</span>
-                        </div>
+                        {{#display.pdf}}
+                            <div class="experience-container-item-highlight">
+                                <strong>{{title}}: </strong> <span>{{{description}}}</span>
+                            </div>
+                        {{/display.pdf}}
                     {{/highlights}}
                 </footer>
             </div>

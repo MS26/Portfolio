@@ -38,15 +38,24 @@
         "highlights": [
           {
             "title": "Certification",
-            "description": "Leading the push for Codeweavers to gain ISO27001 certification, and putting the right processes in place to help other Cox companies follow quickly behind."
+            "description": "Leading the push for Codeweavers to gain ISO27001 certification, and putting the right processes in place to help other Cox companies follow quickly behind.",
+            "display": {
+              "pdf": true
+            }
           },
           {
             "title": "Organisational Strategy",
-            "description": "Working with our Senior Leadership Team on the planning and setup of a merger between two Cox companies, making sure teams, systems, and goals are aligned."
+            "description": "Working with our Senior Leadership Team on the planning and setup of a merger between two Cox companies, making sure teams, systems, and goals are aligned.",
+            "display": {
+              "pdf": true
+            }
           },
           {
             "title": "Leadership",
-            "description": "Leading four engineering teams across the Digital Store platform: one focused on AWS migration from our on-prem infrastructure; two leading the global rollout of our Storefront and Checkout products; and another supporting the transition work following a company merger. Supporting team growth, delivery, and alignment across all areas."
+            "description": "Leading four engineering teams across the Digital Store platform: one focused on AWS migration from our on-prem infrastructure; two leading the global rollout of our Storefront and Checkout products; and another supporting the transition work following a company merger. Supporting team growth, delivery, and alignment across all areas.",
+            "display": {
+              "pdf": true
+            }
           }
         ]
       },
@@ -60,23 +69,38 @@
         "highlights": [
           {
             "title": "Personal Highlight",
-            "description": "Migrating our Frontend architecture to have all assets hosted from AWS, reducing average latency by over 1 second. Then working on the migration of our Backend to AWS, currently focusing on the update of the framework from .Net Framework 4.7 to .Net 8."
+            "description": "Migrating our Frontend architecture to have all assets hosted from AWS, reducing average latency by over 1 second. Then working on the migration of our Backend to AWS, currently focusing on the update of the framework from .Net Framework 4.7 to .Net 8.",
+            "display": {
+              "pdf": true
+            }
           },
           {
             "title": "Management",
-            "description": "Taking on the responsibility of managing multiple developers within the Digital Store platform. Conducting monthly individual catchup's and ensuring the team is meeting the expected requirements. Whilst also taking an active role in recruitment."
+            "description": "Taking on the responsibility of managing multiple developers within the Digital Store platform. Conducting monthly individual catchup's and ensuring the team is meeting the expected requirements. Whilst also taking an active role in recruitment.",
+            "display": {
+              "pdf": true
+            }
           },
           {
             "title": "Communication",
-            "description": "Working closely with other companies within Cox Automotive, delivering combined products to our customers. Whilst also reaching out to providers ensuring that our integrations are delivering the best service for our products."
+            "description": "Working closely with other companies within Cox Automotive, delivering combined products to our customers. Whilst also reaching out to providers ensuring that our integrations are delivering the best service for our products.",
+            "display": {
+              "pdf": true
+            }
           },
           {
             "title": "Tenders",
-            "description": "Aiding the operations team to create and submit tenders for multiple used car locators internationally. Planning required work to ensure our products can fulfill all requirements within the time constraints."
+            "description": "Aiding the operations team to create and submit tenders for multiple used car locators internationally. Planning required work to ensure our products can fulfill all requirements within the time constraints.",
+            "display": {
+              "pdf": true
+            }
           },
           {
             "title": "Internationalisation",
-            "description": "Releasing our Storefront product into multiple new markets; <a href=\"https://selekt.volvocars.co.uk\" target=\"_blank\">UK</a>, <a href=\"https://selekt.volvocars.no\" target=\"_blank\">Norway</a>, <a href=\"https://selekt.volvocars.at\" target=\"_blank\">Austria</a> and many more. All using the same platform with a personalised configuration, making the site their own."
+            "description": "Releasing our Storefront product into multiple new markets; <a href=\"https://selekt.volvocars.co.uk\" target=\"_blank\">UK</a>, <a href=\"https://selekt.volvocars.no\" target=\"_blank\">Norway</a>, <a href=\"https://selekt.volvocars.at\" target=\"_blank\">Austria</a> and many more. All using the same platform with a personalised configuration, making the site their own.",
+            "display": {
+              "pdf": true
+            }
           }
         ]
       },
@@ -90,15 +114,24 @@
         "highlights": [
           {
             "title": "Personal Highlight",
-            "description": "Extending our Facet Search implementation to support counts against each available option. This required a re-architecture of the algorithm used and was done without impacting its performance."
+            "description": "Extending our Facet Search implementation to support counts against each available option. This required a re-architecture of the algorithm used and was done without impacting its performance.",
+            "display": {
+              "pdf": true
+            }
           },
           {
             "title": "Tenders",
-            "description": "Ensuring the platform delivered the products required by a client, quickly developing sustainable features for demonstrations to prove the platform could fulfil their requirements."
+            "description": "Ensuring the platform delivered the products required by a client, quickly developing sustainable features for demonstrations to prove the platform could fulfil their requirements.",
+            "display": {
+              "pdf": true
+            }
           },
           {
             "title": "Internationalisation",
-            "description": "Developing our Storefront product to a point it was ready for an international release. Releasing it in <a href=\"https://selekt.volvocars.fr\" target=\"_blank\">France</a> first, being closely followed by another 27 markets."
+            "description": "Developing our Storefront product to a point it was ready for an international release. Releasing it in <a href=\"https://selekt.volvocars.fr\" target=\"_blank\">France</a> first, being closely followed by another 27 markets.",
+            "display": {
+              "pdf": true
+            }
           }
         ]
       },
@@ -112,23 +145,38 @@
         "highlights": [
           {
             "title": "Personal Highlight",
-            "description": "Migrated the way one of our core applications stores and processes data, reducing its memory foot print from 13.5GB to 6GB, whilst completely removing its usage of the Large Object Heap (LOH)."
+            "description": "Migrated the way one of our core applications stores and processes data, reducing its memory foot print from 13.5GB to 6GB, whilst completely removing its usage of the Large Object Heap (LOH).",
+            "display": {
+              "pdf": true
+            }
           },
           {
             "title": "Continuous Integration",
-            "description": "Increased our build throughput, developing the functionality of concurrent builds, for both related and un-related projects."
+            "description": "Increased our build throughput, developing the functionality of concurrent builds, for both related and un-related projects.",
+            "display": {
+              "pdf": false
+            }
           },
           {
             "title": "Continuous Deployment",
-            "description": "Implemented the functionality of concurrent deploys for unrelated projects. Increasing our deploys per day by 100%."
+            "description": "Implemented the functionality of concurrent deploys for unrelated projects. Increasing our deploys per day by 100%.",
+            "display": {
+              "pdf": false
+            }
           },
           {
             "title": "Sustainability",
-            "description": "Extended our implementation of Canary Testing to include the ability to replay requests for our core APIs during deploys and ensure the responses match within a defined tolerance."
+            "description": "Extended our implementation of Canary Testing to include the ability to replay requests for our core APIs during deploys and ensure the responses match within a defined tolerance.",
+            "display": {
+              "pdf": true
+            }
           },
           {
             "title": "Data Structures",
-            "description": "Modified an existing word index, used to enable free text searching, to use a Trie data structure. This reduced indexing memory consumption by over 2GB at peak working set. Then further modified the structure into a Compressed Trie data structure which reduced the node count from 477,085 to 144,229."
+            "description": "Modified an existing word index, used to enable free text searching, to use a Trie data structure. This reduced indexing memory consumption by over 2GB at peak working set. Then further modified the structure into a Compressed Trie data structure which reduced the node count from 477,085 to 144,229.",
+            "display": {
+              "pdf": true
+            }
           }
         ]
       },
@@ -142,11 +190,17 @@
         "highlights": [
           {
             "title": "Personal Highlight",
-            "description": "Being offered a full-time role in the first half of my placement, with the final year of my degree funded."
+            "description": "Being offered a full-time role in the first half of my placement, with the final year of my degree funded.",
+            "display": {
+              "pdf": false
+            }
           },
           {
             "title": "Professional Development",
-            "description": "Delivered a JLR project to help the upsell of Stock vehicles during a Build to Order journey. This was fundamental to me growing my confidence and understanding the complete journey of a project."
+            "description": "Delivered a JLR project to help the upsell of Stock vehicles during a Build to Order journey. This was fundamental to me growing my confidence and understanding the complete journey of a project.",
+            "display": {
+              "pdf": false
+            }
           }
         ]
       }
