@@ -30,10 +30,32 @@
     "work": [
       {
         "name": "Codeweavers",
+        "position": "Senior Lead Software Engineer",
+        "url": "https://www.codeweavers.net",
+        "startDate": "July, 2024",
+        "endDate": "",
+        "summary": "Transitioned into a senior lead position for the Digital Store platform, providing technical and engineering leadership while helping shape the architecture and strategy to support global scale. Working closely with leaders across Cox to align on direction and drive innovation across our companies.",
+        "highlights": [
+          {
+            "title": "Certification",
+            "description": "Leading the push for Codeweavers to gain ISO27001 certification, and putting the right processes in place to help other Cox companies follow quickly behind."
+          },
+          {
+            "title": "Organisational Strategy",
+            "description": "Working with our Senior Leadership Team on the planning and setup of a merger between two Cox companies, making sure teams, systems, and goals are aligned."
+          },
+          {
+            "title": "Leadership",
+            "description": "Leading four engineering teams across the Digital Store platform: one focused on AWS migration from our on-prem infrastructure; two leading the global rollout of our Storefront and Checkout products; and another supporting the transition work following a company merger. Supporting team growth, delivery, and alignment across all areas."
+          }
+        ]
+      },
+      {
+        "name": "Codeweavers",
         "position": "Lead Software Engineer",
         "url": "https://www.codeweavers.net",
         "startDate": "November, 2022",
-        "endDate": "",
+        "endDate": "July, 2024",
         "summary": "Progressed into the lead position within the Digital Store platform, managing and planning the projects that the team backing the platform would be working on. Speaking closely to clients, ensuring all requirements were fulfilled, in a way that enhanced the platform, for not only them but all clients using it.",
         "highlights": [
           {
@@ -54,7 +76,7 @@
           },
           {
             "title": "Internationalisation",
-            "description": "Releasing our Digital Store into multiple new markets; <a href=\"https://selekt.volvocars.co.uk\" target=\"_blank\">UK</a>, <a href=\"https://selekt.volvocars.no\" target=\"_blank\">Norway</a>, <a href=\"https://selekt.volvocars.at\" target=\"_blank\">Austria</a> and many more. All using the same platform with a personalised configuration, making the site their own."
+            "description": "Releasing our Storefront product into multiple new markets; <a href=\"https://selekt.volvocars.co.uk\" target=\"_blank\">UK</a>, <a href=\"https://selekt.volvocars.no\" target=\"_blank\">Norway</a>, <a href=\"https://selekt.volvocars.at\" target=\"_blank\">Austria</a> and many more. All using the same platform with a personalised configuration, making the site their own."
           }
         ]
       },
@@ -76,7 +98,7 @@
           },
           {
             "title": "Internationalisation",
-            "description": "Developing our Digital Store product to a point it was ready for an international release. Releasing it in <a href=\"https://selekt.volvocars.fr\" target=\"_blank\">France</a> first, being closely followed by another 27 markets."
+            "description": "Developing our Storefront product to a point it was ready for an international release. Releasing it in <a href=\"https://selekt.volvocars.fr\" target=\"_blank\">France</a> first, being closely followed by another 27 markets."
           }
         ]
       },
