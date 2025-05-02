@@ -64,7 +64,7 @@
         "position": "Lead Software Engineer",
         "url": "https://www.codeweavers.net",
         "startDate": "November, 2022",
-        "endDate": "July, 2024",
+        "endDate": "June, 2024",
         "summary": "Progressed into the lead position within the Digital Store platform, managing and planning the projects that the team backing the platform would be working on. Speaking closely to clients, ensuring all requirements were fulfilled, in a way that enhanced the platform, for not only them but all clients using it.",
         "highlights": [
           {
@@ -154,14 +154,14 @@
             "title": "Continuous Integration",
             "description": "Increased our build throughput, developing the functionality of concurrent builds, for both related and un-related projects.",
             "display": {
-              "pdf": false
+              "pdf": true
             }
           },
           {
             "title": "Continuous Deployment",
             "description": "Implemented the functionality of concurrent deploys for unrelated projects. Increasing our deploys per day by 100%.",
             "display": {
-              "pdf": false
+              "pdf": true
             }
           },
           {
@@ -192,14 +192,14 @@
             "title": "Personal Highlight",
             "description": "Being offered a full-time role in the first half of my placement, with the final year of my degree funded.",
             "display": {
-              "pdf": false
+              "pdf": true
             }
           },
           {
             "title": "Professional Development",
             "description": "Delivered a JLR project to help the upsell of Stock vehicles during a Build to Order journey. This was fundamental to me growing my confidence and understanding the complete journey of a project.",
             "display": {
-              "pdf": false
+              "pdf": true
             }
           }
         ]

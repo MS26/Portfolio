@@ -53,7 +53,7 @@ jobs:
         with:
           htmlFile: ./src/pdf/pdf.component.html
           outputFile: ./src/pdf/resume.pdf
-          pdfOptions: '{"format": "A4", "pageRanges": "1", "printBackground": true}'
+          pdfOptions: '{"format": "A4", "printBackground": true}'
 
       - uses: actions/upload-artifact@v4
         with:
