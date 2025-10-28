@@ -56,6 +56,13 @@
             "display": {
               "pdf": true
             }
+          },
+          {
+            "title": "AI Adoption",
+            "description": "Working as part of a global AI Adoption Team across Cox, driving the responsible and effective use of AI within our businesses. Supporting teams in identifying opportunities to integrate AI into workflows, documenting best practices, and helping shape the strategy for how AI can accelerate innovation and productivity across the organisation.",
+            "display": {
+              "pdf": true
+            }
           }
         ]
       },
@@ -123,14 +130,14 @@
             "title": "Tenders",
             "description": "Ensuring the platform delivered the products required by a client, quickly developing sustainable features for demonstrations to prove the platform could fulfil their requirements.",
             "display": {
-              "pdf": true
+              "pdf": false
             }
           },
           {
             "title": "Internationalisation",
             "description": "Developing our Storefront product to a point it was ready for an international release. Releasing it in <a href=\"https://selekt.volvocars.fr\" target=\"_blank\">France</a> first, being closely followed by another 27 markets.",
             "display": {
-              "pdf": true
+              "pdf": false
             }
           }
         ]
